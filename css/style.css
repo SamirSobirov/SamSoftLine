@@ -9387,6 +9387,8 @@ footer .social a {
 }
 
 .online_request {
+    border-radius: 18px;
+    background: #0008ff88;
     position: absolute;
     top: -115px;
     right: 0;
@@ -9397,32 +9399,10 @@ footer .social a {
     transition: .5s
 }
 
-.online_request:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 70px;
-    width: 70px;
-    background: 0 0;
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff
-}
 
-.online_request:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 70px;
-    width: 70px;
-    background: 0 0;
-    border-left: 1px solid #fff;
-    border-top: 1px solid #fff
-}
 
 .online_request span {
-    background: #fff;
+    background: #5c4fec;
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -9449,25 +9429,8 @@ footer .social a {
     position: relative
 }
 
-.online_request h6:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    width: 70px;
-    background: #00ada8
-}
 
-.online_request h6:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 2px;
-    width: 270px;
-    background: #ff3c56
-}
+
 
 .modal_input,.input_reuqest {
     width: 100%;
