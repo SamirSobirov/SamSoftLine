@@ -10,7 +10,7 @@
 
 
 
-.login-box {
+.login-box1 {
     position: absolute;
 
     top: 60%;
@@ -27,7 +27,7 @@
     border-radius: 10px;
 }
 
-.login-box p:first-child {
+.login-box1 p:first-child {
 
     color: #4121f9;
     text-align: center;
@@ -36,7 +36,7 @@
     letter-spacing: 1px;
 }
 
-.login-box .p2 {
+.login-box1 .p2 {
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -44,16 +44,16 @@
 
 }
 
-.login-box .p2 a {
+.login-box1 .p2 a {
     color: red;
 }
 
 
-.login-box .user-box {
+.login-box1 .user-box {
     position: relative;
 }
 
-.login-box .user-box input {
+.login-box1 .user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -67,7 +67,7 @@
 
 
 
-.login-box form a {
+.login-box1 form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -82,18 +82,18 @@
     letter-spacing: 3px
 }
 
-.login-box a:hover {
+.login-box1 a:hover {
     background: #fff;
     color: #272727;
     border-radius: 5px;
 }
 
-.login-box a span {
+.login-box1 a span {
     position: absolute;
     display: block;
 }
 
-.login-box a span:nth-child(1) {
+.login-box1 a span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -113,7 +113,7 @@
     }
 }
 
-.login-box a span:nth-child(2) {
+.login-box1 a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -134,7 +134,7 @@
     }
 }
 
-.login-box a span:nth-child(3) {
+.login-box1 a span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -155,7 +155,7 @@
     }
 }
 
-.login-box a span:nth-child(4) {
+.login-box1 a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -176,17 +176,17 @@
     }
 }
 
-.login-box p:last-child {
+.login-box1 p:last-child {
     color: #aaa;
     font-size: 14px;
 }
 
-.login-box a.a2 {
+.login-box1 a.a2 {
     color: #fff;
     text-decoration: none;
 }
 
-.login-box a.a2:hover {
+.login-box1 a.a2:hover {
     background: transparent;
     color: #aaa;
     border-radius: 5px;
