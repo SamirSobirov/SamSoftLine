@@ -9717,7 +9717,7 @@ header p {
     position: absolute;
     top: 5px;
     right: -5px;
-    border: 2px solid #ff3a5a;
+    border: 2px solid #3a5eff;
     border-radius: 50%;
     background: #fff
 }
@@ -9729,12 +9729,12 @@ header p {
 }
 
 .finish {
-    background: #ff3a5a
+    background: #3a5effb1
 }
 
 .finish .bage {
     color: #fff;
-    background: #ff3a5a
+    background: #3a5eff
 }
 
 .partner {
