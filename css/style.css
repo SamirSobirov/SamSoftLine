@@ -9349,16 +9349,19 @@ h2.dark+p {
 }
 
 #proposal {
-    background: url(//devio.uz/wp-content/themes/devio/css/../images/proposal_bg.jpg) no-repeat center center;
+    background: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
     background-size: cover;
     padding: 0 0 50px
 }
 
+
 #contacts {
-    background: url(//devio.uz/wp-content/themes/devio/css/../images/contacts_bg.jpg) no-repeat center center;
+    background: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
     background-size: cover;
     padding: 0 0 50px
 }
+
+
 
 #map {
     height: 475px
