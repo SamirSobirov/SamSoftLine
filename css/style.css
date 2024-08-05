@@ -5792,7 +5792,7 @@ hr {
 
 #h1_head {
     color: #4121f9;
-    font-size: 60px !important;
+    font-size: 60px;
     white-space: nowrap;
     position: absolute;
     margin-left: 10px !important;
