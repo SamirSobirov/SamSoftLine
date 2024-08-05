@@ -7389,6 +7389,44 @@ select[multiple].input-lg {
     }
 }
 
+
+
+
+
+@media (min-width: 375px) {
+    .form-horizontal .form-group-sm .control-label {
+        padding-top: 6px;
+        font-size: 12px
+    }
+
+    .carousel-inner {
+        height: 700px !important;
+    }
+
+    .item:nth-child(1){
+        background-image: url(https://images.unsplash.com/photo-1487611459768-bd414656ea10?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+       background-size: cover; 
+       background-position: center;
+       height: 700px !important;
+   }
+
+    .collapse {
+        display: flex !important;
+        white-space: nowrap !important;
+    }
+
+    .collapse .nav {
+        display: flex;
+        white-space: nowrap !important;
+    }
+
+    #h1_head {
+        font-size: 34px;
+
+    }
+}
+
+
 .fade {
     opacity: 0;
     -webkit-transition: opacity .15s linear;
