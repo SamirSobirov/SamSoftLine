@@ -7436,7 +7436,7 @@ select[multiple].input-lg {
 @media (min-width: 320px) {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
-        font-size: 12px
+        font-size: 12px;
     }
 
     .carousel-inner {
@@ -7461,7 +7461,7 @@ select[multiple].input-lg {
     }
 
     #h1_head {
-        font-size: 34px;
+        font-size: 25px;
 
     }
 }
