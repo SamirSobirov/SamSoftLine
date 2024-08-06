@@ -82,7 +82,7 @@
 
 .login-box1 p:first-child {
 
-    color: #4121f9;
+    color: #3d3bff;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
@@ -7248,6 +7248,63 @@ select[multiple].input-lg {
     color: #8a6d3b;
     border-color: #8a6d3b;
     background-color: #fcf8e3
+}
+
+
+#geography{
+    margin-top: 50px;
+}
+
+
+.zayafka {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.717);
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.zayafka .zayafka2 {
+    border-radius: 10px;
+    padding: 5px 100px;
+}
+
+.zayafka .skidka {
+    background-color: yellow;
+    padding: 5px 5px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.zayafka .btn_ostavit {
+    width: 90%;
+    margin-bottom: 5px;
+    background-color: #3d3bff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.zayafka .btn_ostavit .text {
+    font-size: 20px;
+    color: white;
+}
+
+.zayafka .timer {
+    color: red;
+    font-size: 12px;
+}
+
+hr {
+    color: #000;
 }
 
 .has-warning .form-control-feedback {
