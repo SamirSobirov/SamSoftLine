@@ -5923,6 +5923,18 @@ hr {
     .zayafka {
         display: none;
     }
+
+    .pomoshnik button {
+        width: 90px !important; 
+        height: 90px !important;
+        bottom: 15px !important;
+    }
+    
+    .pomoshnik button img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    
 }
 
 @media (max-width: 768px) {
