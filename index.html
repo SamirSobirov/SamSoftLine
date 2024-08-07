@@ -1511,7 +1511,7 @@
         <div class="zayafka">
             <div data-admin-theme="black" class="zayafka2">
                 <strong class="skidka"> -40% </strong>
-                <span class="timer" data-type="timer">06:42:41</span>
+                <span class="timer" data-type="timer">24:42:41</span>
             </div>
             <button class="btn_ostavit" type="button" data-gtm="lead" data-pixel="msCavChr"
                 data-action-button="order-modal">
@@ -1522,28 +1522,25 @@
 
         <div id="myModal" class="modal">
             <div class="modal-content">
+                <span class="close">&times;</span>
 
                 <div class="header">
 
                     <p>ОСТАВИТЬ ЗАЯВКУ</p>
-                    <span class="close">&times;</span>
                 </div>
                 <div class="login-box2">
-                    <p class="p2">Оставьте свою заявку он-лайн и получите до <a href="#">10%</a> скидки</p>
+                    <p class="p2">Наш специалист свяжется с вами и ответит <br> на любые ваши вопросы </p>
                     <form>
-                        <div class="user-box2">
+                        <div class="inputs">
                             <input required="" name="" type="text" placeholder="Ваше имя">
-                        </div>
-                        <div class="user-box2">
                             <input required="" name="" type="number" placeholder="Номер телефона">
                         </div>
-                        <a href="#">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            Отправить
-                        </a>
+
+                        <button class="btn_otpravit">
+                            <p>
+                                Отправить
+                            </p>
+                        </button>
                     </form>
 
                 </div>
@@ -1552,6 +1549,42 @@
 
 
         <style>
+            .modal {
+                height: 100%;
+            }
+
+            .modal-content .inputs {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .modal-content .p2 {
+                font-size: 17px;
+            }
+
+            .modal-content .btn_otpravit {
+                width: 100%;
+                margin-top: 30px;
+                padding: 12px 8px;
+                border: none;
+                border-radius: 15px;
+                background-color: #3d3bff;
+            }
+
+            .modal-content .btn_otpravit p {
+                font-size: 20px;
+                font-weight: 700;
+                color: white;
+            }
+
+            .modal-content .inputs input {
+                padding: 15px 8px;
+                border-radius: 15px;
+                border: 0.5px solid gainsboro;
+            }
+
             .modal-content {
                 /* align-content: center; */
                 text-align: center;
@@ -1595,6 +1628,7 @@
                 padding: 20px;
                 border: 1px solid #888;
                 width: 80%;
+                height: 100%;
             }
 
             .close {
