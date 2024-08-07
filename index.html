@@ -1531,100 +1531,125 @@
                 <div class="m">
                     <p class="p1">Мы онлайн 👋</p>
                     <p class="p2">Чем мы можем вам помочь? Задайте <br> вопрос в любом из мессенджеров.</p>
+
+
+                    <div>
+                        <a href="https://t.me/southpaw9005">
+                            <img src="./images/icons/telegram_message_icon.svg" alt="">
+                            <p> TELEGRAM</p>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>
 
         <style>
-.m .p2 {
-    padding-top: 10px;
-    font-style:oblique;
-}
-
-.p .p1 {
-    font-size: 18px;
-    color: #3d3bff;
-}
-
-      .pomoshnik {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.pomoshnik button {
-    width: 90px;
-    height: 90px;
-    border: none;
-    background-color: #3d3bff;
-    border-radius: 100%;
-    position: relative;
-}
-
-.pomoshnik button img {
-    width: 50px;
-    height: 50px;
-    filter: invert(100%) brightness(100%);
-}
-
-.pom_mes {
-    width: 300px;
-    height: 200px;
-    display: none; 
-    position: absolute;
-    bottom: 100%; 
-    right: 0; 
-    background: #fff; 
-    border: 1px solid #ddd;
-    border-radius: 8px; /* Скругление углов, можно изменить */
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Тень, можно изменить */
-    z-index: 1001; /* Убедитесь, что элемент будет поверх кнопки */
-}
-
-.pom_mes .p {
-    display: flex;
-    white-space: nowrap;
-    height: 20px;
-    /* background-color: #3e3bff80; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.pom_mes .p img {
-    cursor: pointer; 
-    width: 20px;
-}
- </style>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const button = document.getElementById('toggleButton');
-        const infoBox = document.getElementById('infoBox');
-        const closeButton = infoBox.querySelector('.p img'); // Кнопка для закрытия информации
-
-        button.addEventListener('click', () => {
-            // Переключение видимости блока
-            if (infoBox.style.display === 'none' || !infoBox.style.display) {
-                infoBox.style.display = 'block';
-                button.style.display = 'none'; // Скрыть кнопку
-            } else {
-                infoBox.style.display = 'none';
-                button.style.display = 'block'; // Показать кнопку
+            .m div {
+                border: 1px solid ghostwhite;
+                
+                padding: 5px;
+                border-radius: 12px;
+                margin-top: 10px;
             }
-        });
 
-        // Закрытие блока при клике на стрелку
-        closeButton.addEventListener('click', () => {
-            infoBox.style.display = 'none';
-            button.style.display = 'block'; // Показать кнопку
-        });
-    });
-</script>
+            .m div a {
+                display: flex;
+                gap: 20px;
+            }
+
+            .m .p2 {
+                padding-top: 10px;
+                font-style: oblique;
+            }
+
+            .p .p1 {
+                font-size: 18px;
+                color: #3d3bff;
+            }
+
+            .pomoshnik {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                z-index: 1000;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .pomoshnik button {
+                width: 90px;
+                height: 90px;
+                border: none;
+                background-color: #3d3bff;
+                border-radius: 100%;
+                position: relative;
+            }
+
+            .pomoshnik button img {
+                width: 50px;
+                height: 50px;
+                filter: invert(100%) brightness(100%);
+            }
+
+            .pom_mes {
+                width: 300px;
+                height: 200px;
+                display: none;
+                position: absolute;
+                bottom: 100%;
+                right: 0;
+                background: #fff;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                /* Скругление углов, можно изменить */
+                padding: 15px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                /* Тень, можно изменить */
+                z-index: 1001;
+                /* Убедитесь, что элемент будет поверх кнопки */
+            }
+
+            .pom_mes .p {
+                display: flex;
+                white-space: nowrap;
+                height: 20px;
+                /* background-color: #3e3bff80; */
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .pom_mes .p img {
+                cursor: pointer;
+                width: 20px;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const button = document.getElementById('toggleButton');
+                const infoBox = document.getElementById('infoBox');
+                const closeButton = infoBox.querySelector('.p img'); // Кнопка для закрытия информации
+
+                button.addEventListener('click', () => {
+                    // Переключение видимости блока
+                    if (infoBox.style.display === 'none' || !infoBox.style.display) {
+                        infoBox.style.display = 'block';
+                        button.style.display = 'none'; // Скрыть кнопку
+                    } else {
+                        infoBox.style.display = 'none';
+                        button.style.display = 'block'; // Показать кнопку
+                    }
+                });
+
+                // Закрытие блока при клике на стрелку
+                closeButton.addEventListener('click', () => {
+                    infoBox.style.display = 'none';
+                    button.style.display = 'block'; // Показать кнопку
+                });
+            });
+        </script>
 
 
         <div id="myModal" class="modal">
