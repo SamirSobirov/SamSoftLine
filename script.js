@@ -64,3 +64,29 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+let modal = document.getElementById("myModal");
+
+let btn = document.querySelector(".btn_ostavit");
+
+let span = document.getElementsByClassName("close")[0];
+
+let zayafka = document.querySelector(".zayafka");
+
+btn.onclick = function () {
+    modal.style.display = "block";
+    zayafka.classList.add("hide");
+}
+
+span.onclick = function () {
+    modal.style.display = "none";
+    zayafka.classList.remove("hide");
+}
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+        zayafka.classList.remove("hide");
+    }
+}
+
+
