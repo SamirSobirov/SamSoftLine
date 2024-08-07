@@ -1520,6 +1520,115 @@
         </div>
 
 
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="col-md-6 online_request_block">
+                    <div class="login-box1">
+                        <p>ОСТАВИТЬ ЗАЯВКУ</p>
+                        <p class="p2">Оставьте свою заявку он-лайн и получите до <a href="#">10%</a> скидки</p>
+                        <form>
+                            <div class="user-box">
+                                <input required="" name="" type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="user-box">
+                                <input required="" name="" type="number" placeholder="Номер телефона">
+                            </div>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Отправить
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <style>
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide .zayafka when the modal is open */
+.hide {
+    display: none;
+}
+        </style>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.querySelector(".btn_ostavit");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// Get the zayafka element
+var zayafka = document.querySelector(".zayafka");
+
+// When the user clicks the button, open the modal and hide zayafka
+btn.onclick = function() {
+    modal.style.display = "block";
+    zayafka.classList.add("hide");
+}
+
+// When the user clicks on <span> (x), close the modal and show zayafka
+span.onclick = function() {
+    modal.style.display = "none";
+    zayafka.classList.remove("hide");
+}
+
+// When the user clicks anywhere outside of the modal, close it and show zayafka
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+        zayafka.classList.remove("hide");
+    }
+}
+
+
+</script>
+
 
 
 
