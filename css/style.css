@@ -8336,6 +8336,7 @@ tbody.collapse.in {
 
 .navbar-fixed-top {
     top: 0;
+    /* height: 40px; */
     border-width: 0 0 1px
 }
 
