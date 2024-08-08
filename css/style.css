@@ -7958,6 +7958,10 @@ hr {
         font-size: 12px;
     }
 
+    .head_img {
+        width: 50px !important;
+        height: 50px !important;
+    }
 
     .modal-content {
         height: 400px !important;
