@@ -7856,6 +7856,7 @@ hr {
         font-size: 12px;
     }
 
+
     .modal-content {
         height: 400px !important;
     }
@@ -8055,12 +8056,22 @@ tbody.collapse.in {
     left: auto
 }
 
+
+#logo_header {
+    display: none; 
+}
+
+
 @media (min-width: 768px) {
     .nav-tabs.nav-justified>li {
         display: table-cell;
         width: 1%
     }
 
+    #logo_header {
+        display: block; 
+    }
+    
     .login-box2 .p2 {
         font-size:20px !important; 
     }
