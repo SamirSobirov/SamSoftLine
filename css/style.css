@@ -7866,6 +7866,11 @@ hr {
         font-size: 12px
     }
 
+    #burgerMenu {
+        margin-left: 250px ;
+    }
+
+
     
     .btn_otpravit {
         width: 200px !important;
@@ -7949,6 +7954,10 @@ hr {
         font-size: 34px;
 
     }
+    #burgerMenu {
+        margin-left: 200px;
+    }
+
 }
 
 
@@ -8014,6 +8023,10 @@ hr {
     #h1_head {
         font-size: 25px;
 
+    }
+
+    #burgerMenu {
+        margin-left: 150px;
     }
 }
 
@@ -8172,6 +8185,15 @@ tbody.collapse.in {
     .nav-tabs.nav-justified>li {
         display: table-cell;
         width: 1%
+    }
+
+    .head_img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    #burgerMenu {
+        margin-left: 500px;
     }
 
     #logo_header {
