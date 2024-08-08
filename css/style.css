@@ -30,7 +30,14 @@
 
 
 .logo_div img {
-  padding-left:8px;
+  
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.head_img {
     background-color: #fff;
     margin-left: 20px;
     border-radius: 50%;
