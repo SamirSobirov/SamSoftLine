@@ -7764,6 +7764,10 @@ hr {
         font-size: 12px
     }
 
+    .login-box2 .p2 {
+        font-size:15px !important; 
+    }
+
 
     #toggleButton {
         width: 50px;
@@ -8043,6 +8047,14 @@ tbody.collapse.in {
     .nav-tabs.nav-justified>li {
         display: table-cell;
         width: 1%
+    }
+
+    .login-box2 .p2 {
+        font-size:20px !important; 
+    }
+
+    .btn_otpravit {
+        width: 300px !important;
     }
 
     .nav-tabs.nav-justified>li>a {
