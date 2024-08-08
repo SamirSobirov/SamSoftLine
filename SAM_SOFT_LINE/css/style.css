@@ -7857,6 +7857,10 @@ hr {
     }
 
     
+    .btn_otpravit {
+        width: 200px !important;
+    }
+    
     .header {
         padding-top: 30px;
     }
