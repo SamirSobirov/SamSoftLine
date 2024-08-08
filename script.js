@@ -19,6 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+document.getElementById('burgerMenu').addEventListener('click', function() {
+  this.classList.toggle('active');
+  const navLinks = document.getElementById('navLinks');
+  navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const elements = document.querySelectorAll(
     "#benefits .title, #benefits .col-md-6"

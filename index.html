@@ -41,7 +41,7 @@
                                         alt="SamSoftline Logo"></a>
                             </li>
 
-                            
+
                             <div class="burger-menu" id="burgerMenu">
                                 <span></span>
                                 <span></span>
@@ -63,108 +63,6 @@
             </div>
         </div>
     </header>
-<script>
-document.getElementById('burgerMenu').addEventListener('click', function() {
-    this.classList.toggle('active');
-    const navLinks = document.getElementById('navLinks');
-    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-});
-</script>
-
-    <style>
-.nav-links {
-    display: flex;
-    list-style: none;
-}
-
-.nav-links li {
-    margin: 0 10px;
-}
-
-.burger-menu {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    width: 25px;
-}
-
-.burger-menu span {
-    height: 3px;
-    background: rgb(255, 255, 255);
-    margin: 4px 0;
-    width: 100%;
-    transition: all 0.3s ease;
-}
-
-@media (max-width: 768px) {
-    .menu {
-        height: 90px;   
-    }
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding-left: 20px;
-        height: 600px;
-        background: rgba(79, 79, 79, 0.811);
-        width: 150px;
-        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-    }
-
-    .burger-menu {
-        display: flex;
-
-        margin-left: 150px;
-    }
-
-    .burger-menu.active + .nav-links {
-        display: flex;
-        padding-top: 30px;
-       
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-}
-
-@media (max-width: 320px) {
-    .menu {
-        height: 90px;   
-    }
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 10px;
-        left: 0;
-        padding-right: -15px;
-        height: 600px;
-        background: rgba(0, 0, 0, 0.811);
-        width: 150px;
-        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-    }
-
-    .burger-menu {
-        display: flex;
-
-        margin-left: 100px;
-    }
-
-    .burger-menu.active + .nav-links {
-        display: flex;
-        justify-content: space-between;;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-}
-
-    </style>
-
 
     <div class="container greeting">
         <div class="row">
