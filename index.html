@@ -96,10 +96,9 @@ document.getElementById('burgerMenu').addEventListener('click', function() {
     transition: all 0.3s ease;
 }
 
-/* Media query for screen sizes less than 425px */
-@media (max-width: 425px) {
-    #navbar {
-    
+@media (max-width: 768px) {
+    .menu {
+        height: 90px;   
     }
     .nav-links {
         display: none;
@@ -129,6 +128,40 @@ document.getElementById('burgerMenu').addEventListener('click', function() {
         margin: 10px 0;
     }
 }
+
+@media (max-width: 320px) {
+    .menu {
+        height: 90px;   
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding-right: -15px;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.811);
+        width: 150px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+
+    .burger-menu {
+        display: flex;
+
+        margin-left: 100px;
+    }
+
+    .burger-menu.active + .nav-links {
+        display: flex;
+        justify-content: space-between;;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
     </style>
 
 
