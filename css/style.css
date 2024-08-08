@@ -7866,9 +7866,6 @@ hr {
         font-size: 12px
     }
 
-    #burgerMenu {
-        margin-left: 250px ;
-    }
 
 
     
@@ -7955,7 +7952,7 @@ hr {
 
     }
     #burgerMenu {
-        margin-left: 200px;
+        margin-left: 200px !important;
     }
 
 }
@@ -8193,7 +8190,7 @@ tbody.collapse.in {
     }
 
     #burgerMenu {
-        margin-left: 500px;
+        margin-left: 500px !important;
     }
 
     #logo_header {
