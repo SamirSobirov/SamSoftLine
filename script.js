@@ -18,12 +18,24 @@ document.addEventListener("DOMContentLoaded", () => {
     button.style.display = "block";
   });
 });
-document.getElementById('burgerMenu').addEventListener('click', function() {
+
+
+document.getElementById('burgerMenu').addEventListener('click', function(event) {
+  event.stopPropagation(); // Prevent click event from propagating to the window
   this.classList.toggle('active');
   const navLinks = document.getElementById('navLinks');
   navLinks.classList.toggle('active');
 });
 
+// Close the menu when clicking outside of it
+window.addEventListener('click', function(event) {
+  const burgerMenu = document.getElementById('burgerMenu');
+  const navLinks = document.getElementById('navLinks');
+  if (burgerMenu.classList.contains('active') && !burgerMenu.contains(event.target) && !navLinks.contains(event.target)) {
+      burgerMenu.classList.remove('active');
+      navLinks.classList.remove('active');
+  }
+});
 document.addEventListener("DOMContentLoaded", function () {
   const elements = document.querySelectorAll(
     "#benefits .title, #benefits .col-md-6"
