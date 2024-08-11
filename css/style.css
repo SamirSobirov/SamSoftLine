@@ -100,7 +100,7 @@
 }
 
 
-/* Basic Styles */
+
 .nav-item a {
     text-decoration: none;
     color: inherit;
@@ -115,7 +115,8 @@
     margin: 0 10px;
 }
 
-/* Burger Menu Styling */
+
+
 .burger-menu {
     display: none;
     flex-direction: column;
@@ -125,13 +126,14 @@
 
 .burger-menu span {
     height: 3px;
-    background: #fff; /* Updated color code for consistency */
+    background: #fff; 
     margin: 4px 0;
     width: 100%;
     transition: all 0.3s ease;
 }
 
-/* Transformation for the active state */
+
+
 .burger-menu.active span:nth-child(1) {
     transform: rotate(45deg);
     margin: 0;
@@ -146,7 +148,8 @@
     margin: 0;
 }
 
-/* Responsive Styling for Tablets and Smaller Devices */
+
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -160,9 +163,9 @@
         width: 150px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
         opacity: 0;
-        transform: translateY(10px); /* Slide effect */
-        transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions */
-        visibility: hidden; /* Hide by default */
+        transform: translateY(10px); 
+        transition: opacity 0.3s ease, transform 0.3s ease; 
+        visibility: hidden; 
         z-index: 1000;
     }
 
@@ -195,9 +198,9 @@
         width: 150px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
         opacity: 0;
-        transform: translateY(-40px); /* Slide effect */
-        transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions */
-        visibility: hidden; /* Hide by default */
+        transform: translateY(-40px); 
+        transition: opacity 0.3s ease, transform 0.3s ease; 
+        visibility: hidden; 
         z-index: 1000;
     }
 
