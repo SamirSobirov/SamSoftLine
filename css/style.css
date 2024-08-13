@@ -10192,12 +10192,28 @@ h2.dark+p {
 
 
 #contacts {
-    background: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
-    background-size: cover;
-    padding: 0 0 50px
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 50px;
 }
 
+#contacts::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+    background-size: cover;
+    filter: blur(9px); 
+    z-index: 0;
+}
 
+#contacts .container {
+    position: relative;
+    z-index: 1;
+}
 
 #map {
     height: 475px
