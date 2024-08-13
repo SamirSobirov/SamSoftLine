@@ -59,33 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
   checkVisibility();
 });
 
-// const timerElement = document.querySelector(".timer");
-// const initialTime = timerElement.textContent;
-
-// const [hours, minutes, seconds] = initialTime.split(":").map(Number);
-
-// let timer = hours * 3600 + minutes * 60 + seconds;
-
-// const countdown = () => {
-//   if (timer > 0) {
-//     timer--;
-
-//     const newHours = Math.floor(timer / 3600);
-//     const newMinutes = Math.floor((timer % 3600) / 60);
-//     const newSeconds = timer % 60;
-
-//     timerElement.textContent = `${newHours
-//       .toString()
-//       .padStart(2, "0")}:${newMinutes.toString().padStart(2, "0")}:${newSeconds
-//       .toString()
-//       .padStart(2, "0")}`;
-//     setTimeout(countdown, 1000);
-//   } else {
-//     alert("Таймер истек");
-//   }
-// };
-
-// countdown();
 
 document.addEventListener("DOMContentLoaded", function () {
   const services = document.querySelectorAll(".service, .title, .dark");
