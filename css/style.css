@@ -7737,20 +7737,6 @@ select[multiple].input-lg {
 }
 
 
-/* .zayafka {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-
-    z-index: 1000;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    border-radius: 10px;
-} */
-
 
  .btn_ostavit {
     position: fixed;
@@ -8089,7 +8075,7 @@ hr {
     #toggleButton {
         width: 50px;
         height: 50px;
-        bottom: 100px;
+        bottom: 50px;
     }
 
     #toggleButton img {
