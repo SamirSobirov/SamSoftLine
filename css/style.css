@@ -169,7 +169,7 @@ html {
         top: 0;
         left: 0;
         padding-left: 20px;
-        height: 730px;
+        height: 1000%;
         background: rgba(0, 0, 0, 0.811);
         /* width: 150px; */
         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
@@ -7974,9 +7974,8 @@ hr {
         top: 0;
         left: 0;
         padding-left: 20px;
-        height: 730px;
+        height: 1000px;
         background: rgba(0, 0, 0, 0.811);
-        /* width: 150px; */
         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
         opacity: 0;
         transform: translateY(-40px); 
