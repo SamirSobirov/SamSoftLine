@@ -81,6 +81,7 @@ html {
     }
 
 
+
     .burger-menu {
         display: flex;
 
@@ -7802,12 +7803,6 @@ hr {
     color: #737373
 }
 
-@media (min-width: 1024px) {
-    #h1_head {
-        font-size: 50px !important;
-    }
-}
-
 @media (min-width: 768px) {
     .form-inline .form-group {
         display: inline-block;
@@ -7912,13 +7907,14 @@ hr {
         padding-top: 6px;
         font-size: 12px
     }
-
-    #h1_head {
-        font-size: 70px !important;
-        margin-left: 10%
-    }
 }
 
+@media (max-width: 425px) {
+    #h1_head {
+        font-size: 28px !important;
+    }
+
+}
 @media (min-width: 425px) {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
@@ -7962,12 +7958,8 @@ hr {
         display: flex;
         white-space: nowrap !important;
     }
-
-    #h1_head {
-        font-size: 35px !important;
-
-    }
 }
+
 
 
 @media (min-width: 375px) {
@@ -7975,6 +7967,8 @@ hr {
         padding-top: 6px;
         font-size: 12px
     }
+
+
 
     
 
@@ -8005,10 +7999,7 @@ hr {
         white-space: nowrap !important;
     }
 
-    #h1_head {
-        font-size: 34px;
 
-    }
     #burgerMenu {
         margin-left: 200px !important;
     }
@@ -8018,7 +8009,7 @@ hr {
 
 @media (min-width: 320px) {
 
-        
+     
 
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
@@ -8078,10 +8069,7 @@ hr {
         white-space: nowrap !important;
     }
 
-    #h1_head {
-        font-size: 25px;
 
-    }
 
     #burgerMenu {
         margin-left: 150px;
@@ -8236,6 +8224,29 @@ tbody.collapse.in {
 
 #logo_header {
     display: none; 
+}
+
+
+@media (max-width: 425px) {
+    #h1_head {
+        font-size: 28px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #h1_head {
+        font-size: 35px !important;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    #h1_head {
+        font-size: 45px !important;
+    }
 }
 
 
