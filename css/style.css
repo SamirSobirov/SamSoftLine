@@ -75,7 +75,38 @@ html {
     }
 }
 
+@media (max-width: 320px) {
+    .menu {
+        height: 90px;   
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding-right: -15px;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.811);
+        width: 150px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
 
+    .burger-menu {
+        display: flex;
+
+        margin-left: 100px;
+    }
+
+    .burger-menu.active + .nav-links {
+        display: flex;
+        justify-content: space-between;;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
 
 
 
@@ -165,13 +196,15 @@ html {
 
 @media (max-width: 320px) {
     .nav-links {
+        display: flex;
+        flex-direction: column;
         position: absolute;
         top: 0;
         left: 0;
         padding-left: 20px;
-        height: 1000%;
+        height: 70px;
         background: rgba(0, 0, 0, 0.811);
-        /* width: 150px; */
+        width: 150px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
         opacity: 0;
         transform: translateY(-40px); 
@@ -180,20 +213,6 @@ html {
         z-index: 1000;
     }
 
-    .burger-menu {
-        display: flex;
-        margin-left: 100px;
-    }
-
-    .burger-menu.active + .nav-links {
-        opacity: 1;
-        transform: translateY(0);
-        visibility: visible; 
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
 }
 
 
@@ -7967,21 +7986,6 @@ hr {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
         font-size: 12px
-    }
-
-    .nav-links {
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding-left: 20px;
-        height: 1000px;
-        background: rgba(0, 0, 0, 0.811);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-        opacity: 0;
-        transform: translateY(-40px); 
-        transition: opacity 0.3s ease, transform 0.3s ease; 
-        visibility: hidden; 
-        z-index: 1000;
     }
 
     #toggleButton {
