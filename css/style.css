@@ -52,8 +52,8 @@ html {
         top: 0;
         left: 0;
         padding-left: 20px;
-        height: 600px;
-        background: rgba(79, 79, 79, 0.811);
+        height: 1000% !important;
+      background: rgba(0, 0, 0, 0.811) !important;
         width: 150px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     }
@@ -79,18 +79,7 @@ html {
     .menu {
         height: 90px;   
     }
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 10px;
-        left: 0;
-        padding-right: -15px;
-        height: 600px;
-        background: rgba(0, 0, 0, 0.811);
-        width: 150px;
-        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-    }
+
 
     .burger-menu {
         display: flex;
@@ -104,7 +93,7 @@ html {
     }
 
     .nav-links li {
-        margin: 10px 0;
+        margin: 0px;
     }
 }
 
@@ -202,7 +191,6 @@ html {
         top: 0;
         left: 0;
         padding-left: 20px;
-        height: 70px;
         background: rgba(0, 0, 0, 0.811);
         width: 150px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
@@ -7988,6 +7976,8 @@ hr {
         font-size: 12px
     }
 
+    
+
     #toggleButton {
         width: 50px;
         height: 50px;
@@ -8027,6 +8017,9 @@ hr {
 
 
 @media (min-width: 320px) {
+
+        
+
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
         font-size: 12px;
