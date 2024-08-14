@@ -13,6 +13,23 @@ html {
     color: inherit;
 }
 
+.nav_logo div {
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.nav_logo img {
+    /* background-color: #fff;
+    margin-left: 20px;
+    border-radius: 50%; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -10888,6 +10905,7 @@ select option {
     background: #ff3115;
     border-radius: 50%
 }
+
 
 .cbh-phone {
     position: fixed;
